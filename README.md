@@ -22,3 +22,5 @@ Simply include `smarky-colors.sty` in your $\LaTeX$ project directory and then i
 ...
 \end{document}
 ```
+
+Check out `example-presentation.tex` for using smarky-colors as a Beamer theme.
