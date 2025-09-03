@@ -1,0 +1,62 @@
+\ProvidesPackage{smarky-theme}
+\mode<presentation>
+
+% Color setup
+\usepackage{xcolor}
+\definecolor{navy}{HTML}{23395B}
+\definecolor{gold}{HTML}{A88F2A}
+\definecolor{offwite}{HTML}{FFFFF8}
+
+% Font (Libertinus via pdfLaTeX)
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{libertinus}
+\usepackage{microtype}
+
+% Set main colors
+\setbeamercolor{normal text}{fg=navy,bg=offwite}
+\setbeamercolor{structure}{fg=gold}
+\setbeamercolor{alerted text}{fg=gold}
+\setbeamercolor{item}{fg=gold}
+\setbeamercolor{item projected}{fg=offwite,bg=gold}
+\setbeamercolor{section in toc}{fg=navy}
+
+% Title slide customization
+\setbeamercolor{title}{fg=gold}
+\setbeamercolor{subtitle}{fg=navy}
+\setbeamercolor{author}{fg=navy}
+\setbeamercolor{date}{fg=navy}
+
+% Blocks
+\setbeamercolor{block title}{bg=gold, fg=offwite}
+\setbeamercolor{block body}{bg=offwite, fg=navy}
+
+% Navigation symbols off
+\setbeamertemplate{navigation symbols}{}
+
+% Use serif fonts
+\usefonttheme{serif}
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{enumerate items}[default]
+\setbeamertemplate{footline}{}
+\setbeamertemplate{headline}{}
+
+% Hyperlinks in gold
+\hypersetup{
+  colorlinks=true,
+  linkcolor=gold,
+  urlcolor=gold,
+  citecolor=gold
+}
+
+% Emphasis text in gold
+\renewcommand{\emph}[1]{\textit{\textcolor{gold}{#1}}}
+
+% Footer (slide numbers)
+\setbeamertemplate{footline}[frame number]
+
+% Headline and serif font
+\setbeamertemplate{headline}{}
+\usefonttheme{serif}
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{enumerate items}[default]
