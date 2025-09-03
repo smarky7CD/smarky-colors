@@ -6,7 +6,7 @@ My custom $\LaTeX$ color scheme.
 - The main text color is ![#23395b](https://placehold.co/15x15/23395b/23395b.png) `#23395b`.
 - The accent color (section headings, links, citations, `\emph`, etc.) is ![#a88f2a](https://placehold.co/15x15/a88f2a/a88f2a.png) `#a88f2a`
 
-The font is [Libertinus Serif](https://github.com/alerque/libertinus) and the . These can be commented out in the `.sty` file. 
+The font is [Libertinus Serif](https://github.com/alerque/libertinus) and the margins are set to 1 inch. These options can be commented out in the `.sty` file if not desired. 
 
 ## To Use 
 
